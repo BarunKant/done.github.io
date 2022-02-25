@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url("");
+			background-size: cover;
+		}
+
+		.menudropdown1{
+            width:80%;
+            height:100px;
+            margin:0px auto;
+		}
+
+		.menudropdown1 ul{
+			padding: 0px;
+		}
+
+		.menudropdown1 ul li{
+            float:left;
+            background-color:black;
+            color:white;
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            border: 11px;
+            border-color: white;
+            text-align: center;
+            list-style: none;
+            font-size: 40px;
+            opacity: 0.6;
+        }
+
+        .menudropdown1 ul li ul{
+        	display: none;
+        }
+
+        .menudropdown1 ul li:hover > ul{
+        	display: block;
+        }
+
+         
+        .menudropdown1 ul li:hover{
+        	background-color: aqua;
+        	text: black;
+        	opacity: 1;
+
+        }
+    .menudropdown1 ul li ul li{
+    	position: relative;
+    }
+
+    .menudropdown1 ul li ul li ul{
+    	position: absolute;
+    	left: 200px;
+    	top: 0;
+    }
+
+
+	</style>
+
+</head>
+<body  >
+	<header>
+		<div class="menudropdown1">
+			<ul>
+				<li>Usa
+					<ul><li>New york<ul><li>New york </li></ul> </li></ul></li>
+				<li>Usa<ul><li>New york </li></ul></li>
+				<li>Usa<ul><li>New york </li></ul></li>
+				<li>Usa<ul><li>New york </li></ul></li>
+				<li>Usa<ul><li>New york </li></ul></li>
+
+			</ul>
+		</div>
+	</header>
+</body>
+</html>
